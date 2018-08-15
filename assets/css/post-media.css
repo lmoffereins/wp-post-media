@@ -34,6 +34,8 @@
 *:hover > .wp-post-media:not(.has-image) .wp-post-media-remove .screen-reader-text,
 .wp-post-media:not(.has-image) .wp-post-media-remove:focus .screen-reader-text {
 	position: static !important; /* Overrule .screen-reader-text's absolute !important */
+	clip-path: initial;
+	margin: auto;
 }
 
 .wp-post-media.has-image .wp-post-media-remove {
